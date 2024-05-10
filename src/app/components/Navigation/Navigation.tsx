@@ -44,16 +44,14 @@ const Navigation = () => {
 			</div>
 
 			{/* mobile menu */}
-			{isMenuOpen && (
-				<nav
-					ref={menuRef}
-					className={classNames(styles.mobile, {
-						[styles.active]: isMenuOpen,
-					})}
-				>
-					<Menu />
-				</nav>
-			)}
+			<nav
+				ref={menuRef}
+				className={classNames(styles.mobile, {
+					[styles.active]: isMenuOpen,
+				})}
+			>
+				<Menu />
+			</nav>
 		</div>
 	);
 };
