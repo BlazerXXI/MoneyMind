@@ -1,0 +1,27 @@
+{
+	"name": "Money Mind",
+	"short_name": "Money Mind",
+	"description": "An app to help you keep track of your expenses",
+	"icons": [
+		{
+			"src": "/logo-192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/logo-384.png",
+			"sizes": "384x384",
+			"type": "image/png"
+		},
+		{
+			"src": "/logo-512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"theme_color": "#000000",
+	"background_color": "#ffffff",
+	"display": "standalone",
+	"start_url": "/",
+	"orientation": "portrait"
+}

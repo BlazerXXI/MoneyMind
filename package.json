@@ -1,0 +1,25 @@
+{
+	"name": "money-minder",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev --experimental-https --turbo -H 192.168.37.186",
+		"build": "next build",
+		"start": "vite",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@ducanh2912/next-pwa": "^10.2.7",
+		"classnames": "2.5.1",
+		"next": "14.2.3",
+		"react": "18",
+		"react-dom": "18",
+		"sass": "1.76.0"
+	},
+	"devDependencies": {
+		"@types/node": "20",
+		"@types/react": "18",
+		"@types/react-dom": "18",
+		"typescript": "5"
+	}
+}
